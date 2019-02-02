@@ -1,5 +1,38 @@
-$primary-color: rgb(231, 182, 215);
+$bright-pink: #ff00b2;
+$dark-pink: #b21282;
+$yellow: #ffdc19;
+$blue1: #14c9cc;
+$blue2: #09abc1;
+$space-font: "Codystar", cursive;
+
+@mixin background-title() {
+  opacity: 0.5;
+  font-family: $space-font;
+  text-align: center;
+  font-size: 9em;
+  position: fixed;
+  margin-top: 0;
+}
+
+// HOME PAGE
 
 body {
-  background: $primary-color;
+  background: $yellow;
+}
+
+h1 {
+  color: $blue2;
+  @include background-title();
+}
+
+.building {
+  fill: $blue1;
+}
+
+.ufo-big {
+  fill: $dark-pink;
+}
+
+.ufo-small {
+  fill: $bright-pink;
 }

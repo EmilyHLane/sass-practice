@@ -1,2 +1,20 @@
 body {
-  background: #e7b6d7; }
+  background: #ffdc19; }
+
+h1 {
+  color: #09abc1;
+  opacity: 0.5;
+  font-family: "Codystar", cursive;
+  text-align: center;
+  font-size: 9em;
+  position: fixed;
+  margin-top: 0; }
+
+.building {
+  fill: #14c9cc; }
+
+.ufo-big {
+  fill: #b21282; }
+
+.ufo-small {
+  fill: #ff00b2; }
